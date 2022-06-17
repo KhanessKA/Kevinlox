@@ -67,7 +67,7 @@ footer:hover {
 }
 
 button {
-  padding: 15px 15px;
+  padding: 0px 0px;
   margin: 10px;
   height: 150px;
   width: 150px;
@@ -79,7 +79,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 15px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 button:hover {
@@ -142,7 +142,9 @@ img {
   flex-wrap: wrap;
   margin: auto;
 }
-
+.image-buttons {
+  padding: 20px;
+}
 @media screen and (max-width: 620px) {
   .home-text {
     width: 100%;
